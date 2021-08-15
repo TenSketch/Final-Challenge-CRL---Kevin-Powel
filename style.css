@@ -265,7 +265,6 @@ footer h4 {
   /* hero */
   .hero .flex {
     justify-content: space-between;
-    align-items: end;
     gap: 2rem;
   }
   /* hero section */
@@ -276,6 +275,7 @@ footer h4 {
   }
   .hero_cont {
     flex-basis: 45%;
+    align-self: flex-end;
   }
   .hero .btn {
     margin-block: 0;
